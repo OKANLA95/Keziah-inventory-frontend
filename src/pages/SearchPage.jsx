@@ -1,6 +1,6 @@
 // src/pages/SearchPage.jsx
 import React, { useState } from 'react';
-import './searchPage.css'; // We'll create this file next
+import styles from './searchPage.module.css'; // Updated to CSS Module
 
 const sampleData = [
   { id: 1, name: 'Tomatoes', category: 'Vegetables' },
@@ -17,25 +17,25 @@ function SearchPage() {
   );
 
   return (
-    <div className="search-page">
+    <div className={styles.searchPage}>
       <h2>Search Inventory</h2>
       <input
         type="text"
         placeholder="Search by name..."
         value={query}
         onChange={(e) => setQuery(e.target.value)}
-        className="search-input"
+        className={styles.searchInput}
       />
-      <div className="results">
+      <div className={styles.results}>
         {filteredData.length > 0 ? (
           filteredData.map((item) => (
-            <div className="result-card" key={item.id}>
+            <div className={styles.resultCard} key={item.id}>
               <h4>{item.name}</h4>
               <p>Category: {item.category}</p>
             </div>
           ))
         ) : (
-          <p className="no-results">No results found</p>
+          <p className={styles.noResults}>No results found</p>
         )}
       </div>
     </div>
