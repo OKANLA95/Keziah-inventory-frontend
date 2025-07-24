@@ -1,6 +1,6 @@
 // src/pages/SearchPage.jsx
 import React, { useState } from 'react';
-import './search.css'; // We'll create this file next
+import './searchPage.css'; // We'll create this file next
 
 const sampleData = [
   { id: 1, name: 'Tomatoes', category: 'Vegetables' },
