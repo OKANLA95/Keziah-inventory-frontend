@@ -1,6 +1,6 @@
-/* src/search.css */
+/* src/pages/searchPage.module.css */
 
-.search-page {
+.searchPage {
   padding: 2rem;
   max-width: 800px;
   margin: auto;
@@ -9,13 +9,13 @@
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
 }
 
-.search-page h2 {
+.searchPage h2 {
   color: #0072ff;
   margin-bottom: 1.5rem;
   text-align: center;
 }
 
-.search-input {
+.searchInput {
   width: 100%;
   padding: 0.75rem 1rem;
   border-radius: 8px;
@@ -26,7 +26,7 @@
   box-shadow: 0 0 5px rgba(0, 114, 255, 0.1);
 }
 
-.search-input:focus {
+.searchInput:focus {
   border-color: #0072ff;
   box-shadow: 0 0 8px rgba(0, 114, 255, 0.3);
 }
@@ -36,7 +36,7 @@
   gap: 1rem;
 }
 
-.result-card {
+.resultCard {
   background: #f4f9fb;
   padding: 1rem;
   border-left: 5px solid #0072ff;
@@ -44,12 +44,12 @@
   transition: transform 0.2s ease;
 }
 
-.result-card:hover {
+.resultCard:hover {
   transform: translateX(5px);
   background-color: #eaf5ff;
 }
 
-.no-results {
+.noResults {
   color: #999;
   text-align: center;
 }
