@@ -1,0 +1,61 @@
+.container {
+  padding: 2rem;
+  max-width: 700px;
+  margin: auto;
+}
+
+h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 2rem;
+}
+
+.form input,
+.form select {
+  padding: 0.5rem;
+  flex: 1 1 200px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.userList {
+  list-style: none;
+  padding: 0;
+}
+
+.userCard {
+  display: flex;
+  justify-content: space-between;
+  background: #f8f8f8;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+  border: 1px solid #eee;
+}
+
+.userCard button {
+  background: transparent;
+  color: #c00;
+  font-size: 1.2rem;
+  border: none;
+  cursor: pointer;
+}
+
+.userCard small {
+  color: #555;
+}

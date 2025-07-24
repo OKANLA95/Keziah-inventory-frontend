@@ -1,0 +1,88 @@
+/* App.css */
+
+/* Global styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #fdfbfb, #ebedee);
+  color: #333;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Center the main app */
+.App {
+  text-align: center;
+  padding: 2rem;
+}
+
+/* Bright header */
+header {
+  background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+  color: #fff;
+  padding: 2rem 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+/* Stylish buttons */
+button {
+  background: #4facfe;
+  background: linear-gradient(to right, #00f2fe, #4facfe);
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 1rem;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: linear-gradient(to right, #43e97b, #38f9d7);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Card layout */
+.card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 1.5rem;
+  margin: 1rem auto;
+  max-width: 600px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+/* Input styling */
+input, select, textarea {
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 100%;
+  margin: 0.5rem 0 1rem 0;
+  font-size: 1rem;
+}
+
+input:focus, select:focus, textarea:focus {
+  outline: none;
+  border-color: #4facfe;
+  box-shadow: 0 0 5px rgba(79, 172, 254, 0.4);
+}
+
+/* Footer */
+footer {
+  margin-top: 3rem;
+  color: #999;
+  font-size: 0.9rem;
+}
